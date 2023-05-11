@@ -2,7 +2,7 @@
  * @Description: 我将以全盛状态出动
  * @Author: Danzel <Danzelt1999@gmail.com> 
  * @Date: 2023-05-10 10:09:30
- * @LastEditTime: 2023-05-11 09:49:29
+ * @LastEditTime: 2023-05-11 17:39:36
  * @LastEditors: Danzel 
  * @FilePath: \starter-3\assets\styles\style.css
  * @Tel: 86-17520146706
@@ -49,7 +49,10 @@ body, ul, img, p, input, dl, dd, tr, th, td {
 li, ul, ol {
   list-style: none;
 }
-
+h1, h2, h3 {
+  margin: auto;
+  padding: auto;
+}
 dt, dd {
   line-height: 1.42857143;
 }
@@ -59,7 +62,9 @@ a {
   text-decoration: none;
   background-color: transparent;
 }
-
+img {
+  vertical-align: middle;
+}
 article,
 aside,
 details,
